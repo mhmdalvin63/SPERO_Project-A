@@ -1,0 +1,38 @@
+body{
+    background-image: url(Images/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+h1{
+    font-weight: bold;
+    font-size: 3vw;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+h3{
+    font-weight: bold;
+    font-size: 2vw;
+
+}
+.text-blue{
+    color: blue;
+}
+.roadTo{
+    margin-top: -13%;
+}
+.gambar{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gambar .item{
+    width: 16.5%;
+    flex-basis: calc(100% / 6);
+}
