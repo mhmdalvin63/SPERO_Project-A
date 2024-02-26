@@ -1,3 +1,4 @@
+
 body{
     background-image: url(Images/BG.png);
     background-size: cover;
@@ -7,6 +8,9 @@ body{
 .container{
     width: 100% !important;
     margin: 0 auto !important;
+}
+.text-blue{
+    color: #0069AB !important;
 }
 img{
     width: 100%;
