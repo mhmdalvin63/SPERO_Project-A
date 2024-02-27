@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: "ComicSans";
+    src: url('ComicSansMS3.ttf') format('truetype');
+}
 body{
     background-image: url(Images/BG.png);
     background-size: cover;
@@ -9,8 +12,13 @@ body{
     width: 100% !important;
     margin: 0 auto !important;
 }
+.logo-bumn{
+    width: 25%;
+    height: auto;
+    object-fit: contain;
+}
 .comic-sans{
-    font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+    font-family: "ComicSans", sans-serif;
 }
 .text-blue{
     color: #0069AB !important;
